@@ -1,0 +1,37 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# OS generated
+Thumbs.db
+
+# Logs
+*.log
+
+# Note: final/ PDFs are included so the generated PDF is version-controlled.
+# If you want to exclude them, uncomment below:
+# final/*.pdf
+# final/*.docx
