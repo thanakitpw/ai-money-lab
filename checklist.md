@@ -1,7 +1,7 @@
 # Checklist โปรเจกต์ AI Money Lab
 
 ไฟล์นี้คือ list สิ่งที่ต้องทำ ทำเสร็จไหน ติ๊ก อันไหนยังไม่เสร็จเอาไว้เช็คทุกวัน
-อัพเดตล่าสุด 2026-04-23
+อัพเดตล่าสุด 2026-04-24
 
 ---
 
@@ -9,18 +9,37 @@
 
 - [x] ขั้นวางกลยุทธ์ (market research, pricing, branding, funnel) — เสร็จ
 - [x] Outline หนังสือ 16 บท — เสร็จ
-- [x] ต้นฉบับ — 16/16 บท เสร็จทั้งเล่ม 🎉 ~40,000 คำ ~180 หน้า
-- [x] **Proofread + แก้ 10 issues** เสร็จ พร้อม layout
-- [x] **Lead Magnet 25 หน้า** (`lead-magnet/lead-magnet.md`)
-- [x] **Merge เล่มเต็ม** (`manuscript-full.md`) 6,317 บรรทัด 404KB
-- [x] Starter Kit — 3 ไฟล์เสร็จทั้งหมด
-- [ ] Lead Magnet — รอ Ch 1+2 เขียนเสร็จ
-- [ ] งาน production (visual, landing, payment, ads) — ยังไม่เริ่ม
+- [x] ต้นฉบับ 16/16 บท — ~40,000 คำ ~180 หน้า 🎉
+- [x] Proofread + แก้ 10 issues
+- [x] แก้ภาษา EN → TH 68+ จุด + ค.ศ. → พ.ศ.
+- [x] Lead Magnet 25 หน้า (`lead-magnet/lead-magnet.md`)
+- [x] Merge เล่มเต็ม (`manuscript-full.md`) 6,317 บรรทัด 404KB
+- [x] Starter Kit — 2.5/3 (Prompt Library + Cheat Sheet เสร็จ / Template Pack มีแค่ spec)
+- [x] Brand Identity — Logo + ปก + palette + font
+- [x] PDF generator (Python + weasyprint) + DOCX generator (Pandoc)
+- [x] Canva Layout Guide (`docs/09-canva-layout-guide.md`)
+- [x] GitHub repo push — `github.com/thanakitpw/ai-money-lab`
+- [ ] **Layout ใน Canva + Export final PDF** ← งานคุณลงมือ
+- [ ] **Template Pack 4 Canva file จริง** — ยังขาด
+- [ ] **PDF ของ Starter Kit** (Prompt Library + Cheat Sheet)
 - [ ] Community setup — ยังไม่เริ่ม
+- [ ] งาน production (landing, payment, ads) — ยังไม่เริ่ม
 
 ---
 
-## 🔴 Phase 1 — Pre-Launch (4-8 สัปดาห์ก่อนเปิดขาย)
+## 🟢 Phase 2b — Layout & Finalize (ทำตอนนี้)
+
+- [ ] เปิด Canva → import `final/AI-Money-Mastery.docx`
+- [ ] ทำตาม `docs/09-canva-layout-guide.md` (8 ขั้น) — ~10-15 ชม.
+- [ ] ใส่ปก + title page + TOC + chapter divider
+- [ ] ใส่ running header/footer + page number
+- [ ] Export final PDF พร้อมขาย
+- [ ] สร้าง Canva template 4 ชิ้นจาก `starter-kit/template-pack.md` (spec มีแล้ว)
+- [ ] Export Prompt Library + Cheat Sheet เป็น PDF
+
+---
+
+## 🔴 Phase 3 — Pre-Launch (4-8 สัปดาห์ก่อนเปิดขาย)
 
 ### A. Community Setup (เริ่มเลย ทำให้เสร็จใน 2 สัปดาห์)
 
@@ -38,13 +57,13 @@
 
 ### B. Visual Assets
 
-- [ ] Generate ปกหนังสือ AI Money Mastery (AI image tool)
-- [ ] ปรับปกใน Canva (ใส่ title + subtitle + branding)
+- [x] Generate ปกหนังสือ AI Money Mastery (`assets/book-cover.png`)
+- [x] Logo file (PNG เก็บไว้)
+- [ ] ปรับปกใน Canva (finalize title + subtitle + branding)
 - [ ] ทำ FB Cover (2048×1152)
 - [ ] ทำ Profile Picture (square, logo AML)
 - [ ] ทำ IG Grid starter 9 โพสต์แรก
 - [ ] ทำ LINE OA Rich Menu (ถ้าใช้)
-- [ ] Logo file (PNG + SVG) เก็บไว้หลาย version
 
 ### C. Payment + Delivery System
 
@@ -93,7 +112,7 @@
 
 ---
 
-## 🟠 Phase 2 — Launch Week
+## 🟠 Phase 4 — Launch Week
 
 ### G. Ad Creative
 
@@ -117,7 +136,7 @@
 
 ---
 
-## 🟡 Phase 3 — Post-Launch
+## 🟡 Phase 5 — Post-Launch
 
 ### I. Operations
 
@@ -147,24 +166,22 @@
 
 ---
 
-## 🎯 Priority ที่ควรทำก่อน (ถ้าทำได้แค่ 4 อย่าง)
+## 🎯 Priority ที่ควรทำก่อน (4 งานปลดล็อคทุกอย่าง)
 
-1. **A. Community Setup** — เปิดเลย seed ให้เสร็จ 2 สัปดาห์
-2. **B. ปกหนังสือ + FB Cover** — 1 วัน generate AI image
-3. **C. Payment Platform** — ครึ่งวันตั้งค่า
-4. **รอ Inthira เขียนจบ** → ทำ Lead Magnet → ทำ Landing Page
-
-4 อันนี้ปลดล็อคทุกอย่าง ส่วนอื่นตามมาหลัง
+1. **Layout Canva → Final PDF** — ปลดล็อค Payment + LP + Ads
+2. **A. Community Setup** — seed ให้เสร็จ 2 สัปดาห์ พร้อมตอน launch
+3. **C. Payment Platform (Payhip)** — ครึ่งวันตั้งค่า + upload
+4. **D. Landing Page** — ใช้ Systeme.io ฟรี ~1-2 วัน
 
 ---
 
 ## 📝 Notes
 
-- งบก่อน launch ประมาณ 40,000 บาท (เวลาเขียน opportunity cost + tools + test ads)
-- Break-even 123 เล่ม
-- เป้ายอดขาย M1: 50-100 เล่ม | M3: 200-400 | M6: 500-800
-- Inthira rate limit reset ทุกวันตามเวลา subscription
-- อย่าเริ่มทำ Phase 2 (ads) ก่อน Phase 1 ครบ — เสียงบ
+- งบก่อน launch ประมาณ 40,000 บาท (tools + test ads + opportunity cost)
+- Break-even 123 เล่ม (349 บาท × gross ~334/เล่ม)
+- เป้ายอดขาย M1: 50-100 | M3: 200-400 | M6: 500-800
+- อย่าเริ่ม Phase 4 (ads) ก่อน Phase 3 ครบ — เสียงบเปล่า
+- GitHub repo ต้องเป็น **Private** (เนื้อหาในเล่มคือทรัพย์สินทางปัญญา)
 
 ---
 
@@ -176,7 +193,9 @@
 | 2026-04-23 | อัพเดต brand color gradient navy + gold + เขียน Ch 2, Ch 3 (12/16 บท) |
 | 2026-04-23 | Ch 4 เสร็จ + สร้าง checklist.md — 13/16 บท (เหลือ 1, 7, 8) |
 | 2026-04-23 | **เล่มจบ 16/16 บท** — Ch 1, 7, 8 เสร็จ รอ layout + export PDF |
-| 2026-04-23 | **Proofread + แก้ 10 issues** + สร้าง Lead Magnet 25 หน้า พร้อม production |
-| 2026-04-23 | **แก้ภาษาอังกฤษ → ไทย + ปี ค.ศ. → พ.ศ.** 68+ จุด ใน 16 บท + re-merge manuscript-full + update lead magnet |
-| | |
+| 2026-04-23 | **Proofread + แก้ 10 issues** + สร้าง Lead Magnet 25 หน้า |
+| 2026-04-23 | **แก้ภาษาอังกฤษ → ไทย + ปี ค.ศ. → พ.ศ.** 68+ จุด + re-merge |
+| 2026-04-23 | สร้าง PDF generator + DOCX generator + Canva Layout Guide |
+| 2026-04-23 | ปกหนังสือ (AI) + Brand Identity ครบ + push GitHub repo |
+| 2026-04-24 | อัพเดต CLAUDE.md + checklist.md ให้ตรงสถานะปัจจุบัน |
 | | |

@@ -1,58 +1,89 @@
-# Project: E-book ขาย (มือใหม่เริ่มต้น)
+# Project: AI Money Mastery (E-book)
+
+> **อัพเดตล่าสุด:** 2569-04-24 (Phase 2 production เกือบเสร็จ เหลือ layout + launch)
 
 ## ภาพรวมโปรเจกต์
-สร้างและขาย e-book สำหรับผู้เริ่มต้น (beginner, no prior knowledge)
 
-**หัวข้อที่เลือก: การใช้ AI สำหรับมือใหม่** — สอนใช้ AI ในชีวิตประจำวัน/การทำงาน
+สร้างและขาย e-book สอนใช้ AI หารายได้เสริม สำหรับคนไทยมือใหม่ที่ไม่มีเวลา
 
-### ชื่อหนังสือ (ล็อกแล้ว — ปรับ pivot แล้ว)
+### ชื่อหนังสือ
 > **AI Money Mastery** — *คู่มือใช้ AI สร้างรายได้เสริม สำหรับคนไม่มีเวลา*
 
-- Pivot จาก "AI Mastery Guide" → เน้น **"ทำเงิน/รายได้เสริม"** เป็น hook
-- เจาะ sub-niche: **"คนไม่มีเวลา"** (office workers / แม่บ้าน / คนทำงานประจำ)
-- ไม่ชนคู่แข่งตรง (ไม่เล่นคำ "หลักแสน/100 เท่า" แบบคู่แข่ง)
+### Brand Identity — AI Money Lab
 
-### Core Vibe (สไตล์คนไทย)
+- **Brand name:** AI Money Lab (umbrella ครอบ e-book + คอร์สอนาคต)
+- **Logo:** หลอดทดลอง + $ + text (ไฟล์ `assets/book-cover.png`)
+- **Color:** Navy gradient `#051A37 → #153D6F` + Gold `#FED312`
+- **Font:** Kanit (Thai) + Inter (English)
+- รายละเอียด: `docs/08-branding.md`
+
+### Core Vibe (สไตล์คนไทย ที่ FB Ads ผ่าน)
+
 - "ให้ AI ทำงานแทน" (ไม่ใช่ "ไม่ต้องขยัน" — FB Ad flag)
 - "เริ่มได้ในวันเดียว" (ไม่ใช่ "เห็นผลเร็ว" — FB Ad flag)
 - "ไม่ต้องเก่งเทค" / "ทำตามทีละขั้น"
 - **ห้ามรับประกันรายได้เป็นตัวเลข** (FB Ad policy)
 
-### Bonus (ฟรีแถมเพื่อ justify 399 บาท)
-> **AI Starter Kit** (มูลค่าโฆษณา 500-1,500 บาท)
+---
 
-ไอเดียของแถม (เลือกทำ 2-3 ชิ้นพอ — pending):
-- Prompt Library 100+ prompts แยกตามงาน
-- Template แชต/แคปชัน/อีเมล (คัดลอกใช้ได้เลย)
-- Cheat Sheet หน้าเดียว
-- Video สาธิต 3-5 คลิปสั้น
-- Checklist "30 วันแรกกับ AI"
-
-### สโคปเนื้อหา
-- เริ่มจาก 0 (ไม่มีความรู้พื้นฐาน)
-- ครบถ้วน ยาว จนใช้งานได้จริง
-- ต้องมีของแถม/ของเสริม (template, prompt library) เพื่อ justify 399 บาท
+## Product + Pricing
 
 ### ราคา
-**349 บาท** (ปรับจาก 399 — psychological pricing ใต้ 350)
+**349 บาท** (anchor 890 — ประหยัด 61%)
 
-### Pricing Strategy (ยืนยันจาก skill)
-- **Anchor:** ปกติ 890 → โปรเปิดตัว 349 (ประหยัด 61%)
-- **Bundle:** E-book + Starter Kit มูลค่า 1,500 (ต้องตั้งราคา bonus สูงกว่าตัวหลัก)
-- **ไม่มี money-back guarantee** — ทดแทนด้วย trust signals อื่น:
-  - Testimonial + screenshot รีวิว (top-of-page)
+### สิ่งที่ลูกค้าได้
+
+1. **E-book AI Money Mastery** 16 บท ~180 หน้า (~40,000 คำ)
+2. **AI Starter Kit** (มูลค่ารวม 1,270 บาท) — 3 ชิ้น
+   - Prompt Library Pro (51 prompts)
+   - Template Pack (4 templates)
+   - Cheat Sheet "30 วันแรกกับ AI"
+
+### Pricing Strategy
+
+- **Anchor:** ปกติ 890 → โปรเปิดตัว 349
+- **Bundle:** E-book + Starter Kit มูลค่า 1,270 (anchor bonus สูงกว่า main product)
+- **ไม่มี money-back guarantee** — ใช้ trust signals แทน:
   - Preview เนื้อหา 3-5 หน้าฟรี
+  - Testimonial + screenshot (ต้องเก็บหลัง launch)
   - Demo video
-  - Member-only community (LINE + FB Group)
-- ไม่ A/B test ราคาใน Phase 1 (ล็อก 349 ไว้ 4-6 สัปดาห์)
-- Upsell: Order bump +99, Upsell 990, Downsell 199
+  - Member-only community
+- **ไม่ A/B test ราคา** ใน Phase 1 (ล็อก 349 ไว้ 4-6 สัปดาห์)
+- **Upsell:** Order bump +99, Upsell 990, Downsell 199 (เปิดหลัง validate)
 
-### Funnel Strategy (สำคัญมาก — Community-Driven)
+---
+
+## กลุ่มเป้าหมาย
+
+### Primary Persona
+**"คนที่อยากได้รายได้เสริม แต่ไม่มีเวลา/ไม่มีทักษะพิเศษ"**
+
+- อายุ 28-50
+- ทำงานประจำ / แม่บ้าน / คนเริ่มหารายได้เสริม
+- ไม่เก่งเทค กลัว ChatGPT ใช้ไม่เป็น
+- มีเงินพอจ่าย 349 ถ้าเชื่อว่าจะได้รายได้คืน
+
+### Tier A — ยิงแอด Phase 1
+
+1. **พนักงานประจำอายุ 30+ อยากมี Plan B**
+2. **แม่บ้าน / คุณแม่ลูกเล็ก**
+
+### Tier B — ขยาย Phase 2
+
+3. ฟรีแลนซ์ต้องการขยายรายได้
+4. คนเกษียณเร็ว / คนว่างงาน
+5. นักศึกษาจบใหม่หางานไม่ได้
+
+---
+
+## Funnel Strategy — Community-Driven Lead Magnet
+
 ❌ ห้ามยิง FB Ad → LP → ขายตรง (CVR ต่ำ ขาดทุน)
-✅ ใช้ **Community-Driven Lead Magnet Funnel:**
+
+✅ ใช้ funnel นี้:
 
 ```
-FB Ad (เน้น lead magnet ฟรี)
+FB Ad (pitch lead magnet ฟรี)
   ↓
 Landing Page: "ดาวน์โหลด + เข้า community ฟรี"
   ↓
@@ -68,130 +99,189 @@ Nurture 3-7 วัน (โพสต์ใน community + LINE broadcast)
 Pitch AI Money Mastery 349 บาท
 ```
 
-### Community Strategy (Future-proof สำหรับขายคอร์ส)
-- **LINE OpenChat (ล็อคด้วยรหัส)** — real-time chat, feels exclusive, broadcast promo ได้
-- **Facebook Group** — discoverable, social proof, content library ถาวร
-- เป้าก่อน launch: ต้องมี **50-100 คนในกลุ่ม** (ไม่งั้นดูเหงา = anti-social proof)
-- ต้อง moderate อย่างน้อย 2-3 โพสต์/สัปดาห์
+### Community Strategy
+
+- **LINE OpenChat (ล็อคด้วยรหัส)** — real-time chat, exclusive feel
+- **Facebook Group** — discoverable, social proof, content ถาวร
+- เป้าก่อน launch: ต้องมี **50-100 คนในกลุ่ม**
 - LINE password ต้อง auto-send (ไม่ manual)
+- Moderate 2-3 โพสต์/สัปดาห์
 
-### Tech Stack (ฟรี/ถูก)
+### Tech Stack
+
 - **Landing page:** Systeme.io (ฟรี) / Strikingly
-- **Form + auto-reply:** Systeme.io / LINE OA webhook
-- **Broadcast:** LINE OA (ฟรี 500 msg/เดือน)
-- **File delivery:** Google Drive / Systeme.io
+- **Payment + delivery:** Payhip (มี watermark per buyer)
+- **Email/LINE broadcast:** LINE OA + Systeme.io
+- **File delivery:** Payhip native (auto ส่งลิงก์หลังชำระ)
 
-### Business Model (สรุป — ปรับตามราคาใหม่ 349)
-- Gross profit ต่อเล่ม: **~334 บาท** (หักค่าธรรมเนียม)
-- Max CPA เพื่อยังกำไร: **140 บาท (target), 180 บาท (acceptable)**
-- ต้นทุนตั้งต้น: ~40,000 บาท (เวลาเขียน + tools + ads test)
+---
+
+## Business Model
+
+- Gross profit ต่อเล่ม: **~334 บาท** (หลังหัก payment fee + delivery)
+- Max CPA: **140 บาท (target), 180 บาท (acceptable)**
+- ต้นทุนตั้งต้น: ~40,000 บาท
 - **Break-even: 123 เล่ม**
 - งบ ads เริ่ม: 200-300 บาท/วัน × 14 วัน = 3,000-4,000 บาท test phase
 
 ### เป้ายอดขาย
 - M1: 50-100 เล่ม | M3: 200-400 | M6: 500-800
 
-## กลุ่มเป้าหมาย (Target Audience) — ปรับ pivot
+---
 
-### Primary Persona (ทุก ad ต้องพูดกับคนนี้)
-**"คนที่อยากได้รายได้เสริม แต่ไม่มีเวลา/ไม่มีทักษะพิเศษ"**
+## โครงสร้างไฟล์
 
-- อายุ 28-50
-- ทำงานประจำ / แม่บ้าน / คนเริ่มหารายได้เสริม
-- ไม่เก่งเทค กลัว ChatGPT ใช้ไม่เป็น
-- มีเงินพอจ่าย 399 ถ้าเชื่อว่าจะได้รายได้คืน
-- อ่อนไหวต่อคำว่า "ง่าย" / "ทำตามได้" / "ไม่ต้องลงทุน"
+```
+e-book/
+├── CLAUDE.md                     ← ไฟล์นี้
+├── checklist.md                  ← งานที่เหลือ + log
+├── .gitignore
+├── docs/                         ← Strategy + brand + guides (10 ไฟล์)
+│   ├── 01-overview.md            → ภาพรวม
+│   ├── 02-market-research.md     → คู่แข่งและ gaps
+│   ├── 03-pricing-business.md    → ราคา + break-even
+│   ├── 04-funnel-community.md    → funnel + LINE/FB
+│   ├── 05-book-outline.md        → outline 16 บท
+│   ├── 06-lead-magnet-starter-kit.md
+│   ├── 07-writing-plan.md
+│   ├── 08-branding.md            → Brand kit: สี/font/logo
+│   ├── 09-canva-layout-guide.md  → วิธีจัด Canva step-by-step
+│   └── proofreading-report.md
+├── manuscript/                   ← ต้นฉบับ 16 บท (.md)
+│   ├── part-1/   Ch 1-4
+│   ├── part-2/   Ch 5-8
+│   ├── part-3/   Ch 9-15
+│   └── appendix/ Ch 16
+├── manuscript-full.md            ← merged เล่มเต็ม
+├── lead-magnet/
+│   └── lead-magnet.md            ← คู่มือฟรี 25 หน้า
+├── starter-kit/
+│   ├── prompt-library.md         ← 51 prompts
+│   ├── template-pack.md          ← spec (ต้องทำ Canva จริง)
+│   └── cheat-sheet.md            ← 30 วัน print-ready
+├── assets/
+│   └── book-cover.png            ← ปกหนังสือ (AI-generated)
+├── scripts/
+│   ├── generate_pdf.py           ← Python + weasyprint
+│   └── style.css                 ← CSS navy/gold + Kanit
+└── final/                        ← Output
+    ├── AI-Money-Mastery.docx     ← ไฟล์ Word สำหรับ Canva import
+    ├── sample-ch01.docx
+    └── sample-ch01.pdf           ← Sample ตรวจคุณภาพ
+```
 
-### Sub-segment สำหรับ ad creative
+---
 
-**Tier A — ยิงแอด Phase 1**
-1. **พนักงานประจำอายุ 30+ อยากมี Plan B** — angle: "ทำงาน 8 ชม. + รายได้เสริมตอนเย็น ด้วย AI"
-2. **แม่บ้าน / คุณแม่ลูกเล็ก** — angle: "รายได้จากบ้าน ไม่ต้องออกไปไหน AI ทำงานแทน"
+## สถานะปัจจุบัน (2569-04-24)
 
-**Tier B — ขยาย Phase 2**
-3. ฟรีแลนซ์ต้องการขยายรายได้
-4. คนเกษียณเร็ว / คนว่างงาน
-5. นักศึกษาจบใหม่หางานไม่ได้
+### ✅ Phase 1 — Market Validation (ครบ 100%)
+- [x] หัวข้อ: AI สำหรับมือใหม่
+- [x] ชื่อ: AI Money Mastery (+pivot money angle)
+- [x] ราคา: 349 บาท + anchor 890
+- [x] กลุ่มเป้าหมาย: คนอยากได้รายได้เสริม / ไม่มีเวลา
+- [x] สำรวจคู่แข่งในไทย (Data-Espresso, Benzio, Skooldio ฯลฯ)
+- [x] Pricing + discount strategy
+- [x] Business model + break-even 123 เล่ม
+- [x] Funnel design — community-driven lead magnet
 
-## กลยุทธ์การขาย (Go-to-Market)
-**Phase 1 — ทดสอบตลาด (ตอนนี้)**
-- ขายผ่านเพจ Facebook
-- ราคาถูก (tripwire / entry-level price point) — ยังไม่ได้กำหนดตัวเลข
-- ยิงแอด Facebook Ads เพื่อหา traffic
-- เก็บ feedback และ optimize funnel
+### ✅ Phase 2a — Content Production (ครบ 100%)
+- [x] Outline 16 บท 3 Parts + Appendix
+- [x] **ต้นฉบับ 16/16 บท** ~40,000 คำ ~180 หน้า
+- [x] **Proofread + แก้ 10 issues**
+- [x] **Thai language cleanup** — English → ไทย 68+ จุด + ปี ค.ศ. → พ.ศ.
+- [x] **Lead magnet 25 หน้า** (Ch 1+2+sneak peek Ch 10)
+- [x] **Starter Kit** (2.5/3 ชิ้น)
+  - Prompt Library 51 prompts ✓
+  - Cheat Sheet 30 วัน ✓
+  - Template Pack — มีแค่ spec ยังไม่มี Canva file จริง ⚠️
+- [x] **Brand Identity** — Logo + cover + palette + fonts
+- [x] **PDF generator** — Python + weasyprint (`scripts/generate_pdf.py`)
+- [x] **DOCX generator** — Pandoc (`final/AI-Money-Mastery.docx`)
+- [x] **Canva Layout Guide** — step-by-step (`docs/09-canva-layout-guide.md`)
+- [x] **GitHub repo** — pushed to `github.com/thanakitpw/ai-money-lab`
 
-**Phase 2 — ขยาย (อนาคต)**
-- สร้างเว็บไซต์ขายของตัวเอง
-- เพิ่ม product ladder (ebook → course → coaching?)
-- Email list + lead magnet
+### 🔄 Phase 2b — Layout & Finalize (กำลังทำ / คุณต้องลงมือ)
+- [ ] **Layout ใน Canva** (ใช้ docx + cover + guide) — user task ~10-15 ชม.
+- [ ] **Export final PDF** พร้อมขาย
+- [ ] **สร้าง Canva template จริง 4 ชิ้น** (Template Pack ยังขาด)
+- [ ] **Generate PDF ของ Starter Kit** (Prompt Library + Cheat Sheet)
 
-## ข้อจำกัด / สิ่งที่ต้องคำนึง
-- เจ้าของโปรเจกต์ยังไม่มีประสบการณ์เขียน e-book มาก่อน — ต้องมีโครงสร้างให้เดินตาม
-- งบ ads จำกัด — ต้อง creative + copy ที่ convert ดี
-- ภาษาหลัก: ไทย
+### ⏳ Phase 3 — Pre-Launch (ยังไม่เริ่ม)
+- [ ] สร้าง Facebook Page "AI Money Lab"
+- [ ] สร้าง Facebook Group "AI Money Lab Insider"
+- [ ] สร้าง LINE OpenChat ล็อครหัส "AI Money Lab Lounge"
+- [ ] เปิด LINE Official Account @aimoneylab
+- [ ] จอง IG + TikTok handle
+- [ ] Seed community 50-100 คน + posts warm-up
+- [ ] FB Cover + Profile Pic + IG grid starter
+- [ ] Setup Payment (Payhip) + Upload files
+- [ ] Landing page (Systeme.io / Strikingly)
+- [ ] Email / LINE nurture sequence 7 ฉบับ
 
-## Deliverables หลัก
-1. **Market validation** — เลือกหัวข้อและ niche ที่ขายได้
-2. **E-book เนื้อหา** — outline → ต้นฉบับ → ไฟล์ PDF พร้อมขาย
-3. **หน้าขาย/แลนดิ้ง** — ในเพจ FB ก่อน แล้วค่อยเป็นเว็บ
-4. **Ad creative + copy** — ภาพ/คลิป + ข้อความโฆษณา
-5. **Funnel** — จาก ad → page → สั่งซื้อ → ส่งไฟล์อัตโนมัติ
+### ⏳ Phase 4 — Launch (ยังไม่เริ่ม)
+- [ ] Ad creative (5-10 copy + 5-10 visual + 1-3 video)
+- [ ] FB Pixel + Conversion API
+- [ ] Test ads 200-300 บาท/วัน × 14 วัน
+- [ ] Scale / pivot ตามผล
 
-## สถานะปัจจุบัน
-- [x] เลือกหัวข้อหลัก: **AI สำหรับมือใหม่**
-- [x] ตั้งชื่อหนังสือ: **AI Money Mastery** (pivot แล้ว)
-- [x] ล็อกราคา: **349 บาท** + ฟรี AI Starter Kit (ไม่มี refund)
-- [x] ล็อกกลุ่มเป้าหมาย: คนอยากได้รายได้เสริม / ไม่มีเวลา
-- [x] สำรวจคู่แข่งในไทย
-- [x] ยืนยันราคา + discount strategy (เสร็จ — 399 anchor 890)
-- [x] คำนวณ business model / break-even (เสร็จ — 108 เล่ม break-even)
-- [ ] สร้าง LINE OpenChat (ล็อค) + Facebook Group ก่อน launch
-- [x] วาง outline เนื้อหาหนังสือหลัก — 16 บท 3 Parts ~180 หน้า
-- [x] กำหนด Lead Magnet: Ch 1 + Ch 2 + Sneak peek Ch 10 (~25 หน้า)
-- [x] เลือก Starter Kit 3 ชิ้น: Prompt Library + Template Pack + Cheat Sheet
-- [ ] เขียนต้นฉบับ Phase A (Ch 10-13 — 4 บทเนื้อหลัก)
-- [ ] เขียน Phase B, C, D, E ตามลำดับ
-- [ ] ออกแบบหน้าขาย + ad creative (Phase 2 — ยังไม่อนุมัติ)
-- [ ] Set up Systeme.io funnel + LINE OA (Phase 2 — ยังไม่อนุมัติ)
-- [ ] วาง outline e-book
-- [ ] เขียนต้นฉบับ
-- [ ] ออกแบบปก + ภายใน
-- [ ] export เป็น PDF
-- [ ] ตั้งระบบรับออเดอร์ในเพจ
-- [ ] ทำ ad creative + copy
-- [ ] ยิงแอดทดสอบ
+### ⏳ Phase 5 — Post-Launch (ยังไม่เริ่ม)
+- [ ] Moderate community
+- [ ] Collect testimonials
+- [ ] Optimize funnel / retargeting
+- [ ] Product ladder — คอร์ส / coaching ต่อ
+
+---
 
 ## หมายเหตุสำหรับ Claude
 
 ### ภาษา
 - **ตอบเป็นภาษาไทยเสมอ** (ผู้ใช้สื่อสารไทย) — รวมถึงหัวข้อ, bullet, คำอธิบาย
 - คำศัพท์เทคนิค/การตลาดที่ไทยไม่มีคำเทียบ ใช้ทับศัพท์ได้ (เช่น funnel, CTR, CPM)
+- **ในต้นฉบับหนังสือ** ใช้ปี พ.ศ. (ปี 2569) ไม่ใช่ ค.ศ.
 
 ### การใช้ Skills (บังคับ)
-- **ทุกครั้งที่ทำงานในโปรเจกต์นี้ ต้องใช้ skill ที่เกี่ยวข้องก่อนเสมอ** ห้ามตอบจากความรู้ทั่วไปโดยไม่เรียก skill
-- ก่อนลงมือ ให้ตรวจว่าขั้นตอนนั้นตรงกับ skill ใด แล้วเรียกผ่าน Skill tool
-- ถ้าไม่มี skill ตรง ให้แจ้งผู้ใช้ก่อนว่าจะทำงานโดยไม่มี skill
+- **ทุกครั้งที่ทำงานในโปรเจกต์นี้ ต้องใช้ skill ที่เกี่ยวข้องก่อน** ห้ามตอบจากความรู้ทั่วไป
+- ก่อนลงมือ ตรวจว่าขั้นตอนตรงกับ skill ใด แล้วเรียกผ่าน Skill tool
+- ถ้าไม่มี skill ตรง แจ้งผู้ใช้ก่อน
 
-### Skills ที่อนุมัติไว้แล้วสำหรับโปรเจกต์นี้
-**Phase 1 — Market validation (ใช้งานได้ตอนนี้)**
-- `startup-business-analyst-market-opportunity` — วิเคราะห์โอกาสตลาด/niche AI
-- `competitor-alternatives` — สำรวจคู่แข่ง e-book สอน AI ในไทย
-- `pricing-strategy` — ตั้งราคา
-- `business-analyst` — business model/ตัวเลข
+### Skills ที่อนุมัติแล้ว
 
-**Phase 2a — กลุ่ม content (อนุมัติแล้ว)**
-- `content-creator` — วาง outline หนังสือ + lead magnet
-- `beautiful-prose` — เขียนสำนวนให้อ่านลื่น
-- `avoid-ai-writing` — ทำเนื้อหาไม่ดูเหมือน AI เขียน
-- `copy-editing` — ตรวจคำผิด ก่อน export
-- `pdf` / `pdf-official` — export PDF
+**Phase 1 — Market validation (ใช้เสร็จแล้ว ✓)**
+- `startup-business-analyst-market-opportunity` ✓
+- `competitor-alternatives` ✓
+- `pricing-strategy` ✓
+- `business-analyst` ✓
+- `market-sizing-analysis` ✓
+
+**Phase 2a — Content production (ใช้เสร็จแล้ว ✓)**
+- `content-creator` ✓
+- `beautiful-prose` ✓
+- `avoid-ai-writing` ✓
+- `copy-editing` ✓
+- `professional-proofreader` ✓
+- `pdf` / `pdf-official` (available)
 
 **Phase 2b+ — ยังไม่อนุมัติ** (ขอก่อนใช้)
-- กลุ่มยิงแอด (paid-ads, ad-creative, copywriting, marketing-psychology)
-- กลุ่มหน้าขาย (landing-page-generator, page-cro, copywriting)
-- กลุ่ม launch (launch-strategy, lead-magnets, analytics-product)
+- กลุ่มยิงแอด: `paid-ads`, `ad-creative`, `copywriting`, `marketing-psychology`
+- กลุ่มหน้าขาย: `landing-page-generator`, `page-cro`
+- กลุ่ม launch: `launch-strategy`, `lead-magnets`, `analytics-product`
+- กลุ่มอื่น: `canva-automation`, `email-sequence`, `social-content`
+
+### Agent Teams — Workflow ที่ใช้อยู่
+
+โปรเจกต์ใช้ `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` เปิดใน user settings
+Spawn agent "Inthira" (นักเขียน) ด้วย Agent tool + name → ใช้ SendMessage คุยต่อเนื่องเพื่อเขียน consistent voice ข้ามบท
+
+**Tip:** เวลาให้งานเขียนหนังสือ ใช้ Inthira ต่อได้ — voice บทต่อไปจะ consistent กับ 16 บทที่มี
 
 ### สไตล์การตอบ
 - ผู้ใช้อาจเป็นมือใหม่ด้านการตลาด/การเขียน — อธิบายแบบ step-by-step ไม่ข้ามขั้น
-- ให้คำแนะนำแบบ actionable (ทำอะไร ทำยังไง) ไม่ใช่ทฤษฎีลอยๆ
+- ให้คำแนะนำแบบ actionable (ทำอะไร ทำยังไง) ไม่ใช่ทฤษฎีลอย ๆ
 - ถ้าต้องเลือก/ตัดสินใจ ให้เสนอ 2-3 ทางเลือกพร้อม tradeoff
+- สื่อสารสั้น กระชับ — ไม่เวิ่นเว้อ
+
+### Git Workflow
+- Repo: `github.com/thanakitpw/ai-money-lab`
+- Main branch: `main`
+- **ต้องเป็น Private repo** — เนื้อหาในเล่มคือทรัพย์สินทางปัญญา
+- Commit เมื่อ milestone สำคัญ (ไม่ต้องทุกการแก้เล็ก ๆ)
