@@ -40,7 +40,7 @@
 **Gemini** (Google)
 - จุดเด่น เชื่อม Google Search ข้อมูลล่าสุด ฟรีใจดีสุด
 - จุดอ่อน ความสามารถ creative ยังตามหลัง Claude และ ChatGPT
-- ราคา ฟรีเป็นหลัก / Advanced ประมาณ 700 บาท/เดือน
+- ราคา ฟรีเป็นหลัก / แบบเต็ม ประมาณ 700 บาท/เดือน
 
 **แนะนำสำหรับคนเริ่ม** สมัครฟรี 1 ตัว (Claude หรือ ChatGPT) ใช้ 2-3 เดือน พอเริ่มรู้สึกว่าฟรีไม่พอ ค่อยขยับเป็น paid
 
@@ -130,7 +130,7 @@
 - สร้าง presentation จาก prompt ใช้เวลา 5-10 นาที ได้ slide 10-15 หน้า
 - ราคา ฟรี limited / paid $8-15/เดือน
 
-### ประเภท 8: Automation (ระดับ advanced)
+### ประเภท 8: Automation (ระดับสูง)
 
 **Zapier / Make / n8n**
 - เชื่อม app เข้าด้วยกัน ทำงานอัตโนมัติ
@@ -148,7 +148,7 @@
 ### Combo สำหรับ บทที่ 10 — รับจ้างเขียน
 
 **Core 3 ตัว (ฟรีก่อน)**
-- ChatGPT (brainstorm + outline)
+- ChatGPT (brainstorm + โครงร่าง)
 - Claude (เขียนไทยลื่น)
 - Canva (ทำ portfolio + preview งาน)
 
